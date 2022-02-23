@@ -1,0 +1,66 @@
+.rewardSub{    
+    margin-top: 20px;
+    width: 52.5vw;
+    height: 103px;
+    background-color: #191B20;
+    color: white;
+    padding: 27px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.rewardSub > :first-child{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rewardSub_link{
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rewardSub_link > span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.rewardSub_link > button{
+    width: 142px;
+    height: 32px;
+    border-radius: 10px;
+    outline: none;
+    border: 0px solid transparent;
+    color: white;
+    background-color: #3772FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.linkIcon{
+    padding-right: 6px;
+}
+
+.rewardSub > :last-child > span{
+    width: 79px;
+    height: 25px;
+    background-color: #353945;
+    border-radius: 11px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 7px;
+    margin-right: 7px;
+}
+
+@media (max-width:1503px) {
+    .rewardSub{
+        width: 51.5vw;
+    }
+}

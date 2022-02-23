@@ -1,0 +1,57 @@
+.referralSub{
+    width: 55.5vw;
+    height: 23%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.referralSub_first{
+    width: 44%;
+    height: 76%;
+    padding: 24px 19px;
+    border-radius: 16px;
+    background-color: #191B20;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.referralSub_first > :first-child{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.moneyIcon{
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    background: linear-gradient(135deg, #BBB5E2 0%, #9C92DF 100%);
+    border-radius: 100%;
+    margin-right: 9px;
+}
+
+.referralSub_first_linkDesc{
+    font-size: 16px;
+    color: #808191;
+    font-weight: 500;
+}
+
+.referralSub_first > :last-child{
+    width: 90%;
+    height: 18px;
+    padding: 16px;
+    background-color: #242731;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}

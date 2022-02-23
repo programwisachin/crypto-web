@@ -1,0 +1,35 @@
+.dropDownSub{
+    margin-top: 14px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.dropDownSub_first{
+    width: 44%;
+    height: 38px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #353945;
+    color: white;
+    border-radius: 10px;
+}
+
+.dropDownSub_second{
+    width: 49%;
+    height: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #3772FF;
+    border-radius: 10px;
+}

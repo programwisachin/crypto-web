@@ -1,0 +1,126 @@
+.sideBar {
+	flex: 1.4;
+	background-color: #000000;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-left: 25px;
+    border-right: 2px solid #242731;
+}
+
+.sideBar_heading {
+	width: 86%;
+	margin-top: 34px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	margin-left: 7px;
+	justify-content: space-around;
+}
+
+.sideBar_heading_name {
+	width: 28px;
+	height: 28px;
+	border: 0.1px solid transparent;
+	border-radius: 100%;
+	background-color: #3772ff;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sideBar_heading_title {
+	color: white;
+	font-size: 23px;
+	font-weight: 600;
+	margin-left: 8px;
+}
+
+.sideBar_bottomContainer {
+	position: absolute;
+	bottom: 60px;
+	width: 11%;
+}
+
+.upperBottom {
+	display: flex;
+    justify-content: space-around;
+	align-items: center;
+	width: 100%;
+    margin-bottom: 20px;
+}
+
+.upperBottom_first {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 30px;
+	background-color: #353945;
+	width: 46%;
+	color: white;
+	border-radius: 10px;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.upperBottom_first > :first-child {
+	width: 13px;
+	height: 13.5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8px;
+	background-color: #3772ff;
+	font-weight: 600;
+	border: 0px solid transparent;
+	border-radius: 100%;
+}
+
+.upperBottom_last {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 30px;
+	width: 46%;
+	color: #3772ff;
+	font-weight: 600;
+	font-size: 13px;
+    background: #A3E3FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.lowerBottom {
+	display: flex;
+    justify-content: flex-start;
+	align-items: center;
+	width: 56%;
+    padding: 2px;
+}
+
+.lowerBottom > img{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.lowerBottom_last{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    background: #353945;
+    border-radius: 12.9314px;
+}
+
+.blankBG{
+    width: 16px;
+    height: 16px;
+    border: 0px solid transparent;
+    border-radius: 100%;
+    background-color: #3772ff;
+}

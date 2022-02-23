@@ -1,0 +1,43 @@
+.btnGroup{
+    width: 79%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.btn_link{
+    width: 49%;
+    height: 42px;
+    border-radius: 10px;
+    outline: none;
+    border: 0px solid transparent;
+    color: white;
+    background-color: #3772FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 6px;
+}
+
+.btn_cancel{
+    width: 45%;
+    height: 42px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #242731;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.btn_link > img,.btn_cancel > img{
+    position: relative;
+    right: 7px;
+}

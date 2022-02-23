@@ -1,0 +1,31 @@
+.ss{
+    display: flex;
+    width: 96px;
+    padding-bottom: 20px;
+    align-items: center;
+    color: #808191;
+}
+
+.ss_icon{
+    width: 20px;
+    padding-right: 13px;
+}
+
+.ss > h4{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.ss_highlighted{
+    border: 0px solid #353945;
+    background-color: #353945;
+    border-radius: 12px;
+    width: 83%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+    padding-left: 14px;
+    height: 40px;
+    color: white;
+    margin-bottom: 26px;
+}
